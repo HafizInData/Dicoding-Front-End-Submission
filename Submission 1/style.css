@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, Roboto, sans-serif;
+}
+
+.kepala {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+nav {
+    background-color: purple;
+    color: white;
+    padding: 1px;
+   
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+nav li {
+    margin: 0 30px;
+    font-size: 15px;
+}
+
+
+nav a:hover {background-color: green;
+border-radius: 15px;
+padding: 6px 6px;
+font-weight: bold;
+}
+
+.pertama {
+    width: 280px;
+    height: 420px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+p {
+    font-size: 17px;
+}
+
+h2 {
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+h2::before {content: "\003E";}
+
+
+#infoplot {
+    display: none;
+}
+
+
+.isiplot {
+    display: none;
+}
+
+#infoplot:checked + .isiplot {display: block;}
+
+#infomedia {
+    display: none;
+}
+
+.isimedia {
+    display: none;
+}
+
+#infomedia:checked + .isimedia {display: block;}
+
+
+#infochar {
+    display: none;
+}
+
+
+.isichar {
+    display: none;
+}
+
+#infochar:checked + .isichar {display: block;}
+
+.samping {
+    text-align: center;
+    border: 1px solid grey;
+    margin: 50px 300px;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
